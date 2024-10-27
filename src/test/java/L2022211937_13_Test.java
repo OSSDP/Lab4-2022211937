@@ -11,7 +11,7 @@ public class L2022211937_13_Test {
     //验证示例1
     @Test
     public void testSortColors_Example1() {
-       // int[] nums = {2, 0, 2, 1, 1, 0};
+        int[] nums = {2, 0, 2, 1, 1, 0};
         solution.sortColors(nums);
         int[] expected = {0, 0, 1, 1, 2, 2};
         assertArrayEquals(expected, nums);
